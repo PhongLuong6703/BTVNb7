@@ -32,4 +32,12 @@ console.log(5 % 3);
 let sum = 1 + 1;
 console.log(sum / 2);
 sum = sum + 1
-sum
+//sum+=1
+//sum++
+
+let myText = "Hello world!"
+console.log(myText.toUpperCase());
+console.log(myText.toLowerCase());
+console.log(myText.length)
+myText.slice(9, 1)
+console.log(myText.slice(4, 11))
