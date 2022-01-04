@@ -19,7 +19,7 @@ console.log(age, address);
 
 //const được sử dụng để khai báo hằng số
 //Hằng số là một biến không thể thay đổi giá trị
-const myname = "Phong";
+const myname = "Phong\""
 const g = 9.8;
 const pi = 3.14;
 
@@ -41,3 +41,21 @@ console.log(myText.toLowerCase());
 console.log(myText.length)
 myText.slice(9, 1)
 console.log(myText.slice(4, 11))
+
+const myNewText = "Hello " + myname + ". Nice to see you"
+const welcomeText = `Hello ${myname}. Nice to see you` //String Template
+console.log(myNewText)
+console.log(welcomeText)
+console.log(myNewText[0])
+
+/*
+Kiểu dữ liệu trong JS
+
+Number: Số
+string: Chuỗi
+boolean: Đúng/Sai
+null: rỗng
+undefined: Không xác định
+object: đối tượng
+Symbol:
+*/
