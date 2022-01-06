@@ -10,10 +10,10 @@ let c = prompt("Nhap Do Dai Canh Huyen");
 const pi = 3.1415;
 let s = (Math.pow(c/2,2))*pi;
 if (Math.pow(Number(a),2) + Math.pow(Number(b),2) == Math.pow(Number(c),2)) {
-    console.log(alert(`Dien Tich Duong Tron Ngoai Tiep Tam Giac La: ${s.toFixed(3)}`))
+    alert(`Dien Tich Duong Tron Ngoai Tiep Tam Giac La: ${s.toFixed(3)}`);
 } 
 else {
-    console.log(alert('Gia Tri Ban Vua Nhap Khong Phai 3 Canh Cua Tam Giac Vuong. Vui Long Nhap Lai'));
+    alert('Gia Tri Ban Vua Nhap Khong Phai 3 Canh Cua Tam Giac Vuong. Vui Long Nhap Lai');
 }
 
 /*
