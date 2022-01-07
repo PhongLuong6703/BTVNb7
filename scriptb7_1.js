@@ -48,12 +48,12 @@ console.log(" ");
 console.log("Bai 3:");
 let  x = 10;
 console.log(`a) x++ - --x + x-- = ${x++ - --x + x--}`);
-console.log(` x++ : 11
+console.log(` x++ : 10
  --x : 10
- x-- : 9`);
+ x-- : 10`);
 console.log(" ");
 console.log(`b) ++x - x++ + x-- + x++ = ${++x - x++ + x-- + x++}`);
 console.log(` ++x : 11
  x++ : 11
- x-- : 10
+ x-- : 12
  x++ : 11`);
